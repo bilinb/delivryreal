@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fbe7c6; 
+}
+
+.local {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fbe7c6; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header {
+    background-color: #ff5f57;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.main-content {
+    margin-top: 20px;
+}
+
+.sobrenos {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sobrenos h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.sobrenos h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 10px;
+}
+
+.sobrenos p {
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.tamanho img {
+    width: 250px;
+    height: auto;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+}

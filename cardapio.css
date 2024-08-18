@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fbe7c6; 
+}
+
+.local {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fbe7c6;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header {
+    background-color: #ff5f57;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.menu-conteudo {
+    margin-top: 20px;
+}
+
+.menu-info {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.descri-do-item {
+    flex: 1;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.descri-do-item h3 {
+    margin: 0;
+    color: #333;
+}
+
+.descri-do-item p {
+    margin: 5px 0;
+    color: red;
+}
+
+.preco {
+    font-weight: bold;
+    color: #333;
+}
+
+.item-image img {
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.order-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.order-button:hover {
+    background-color: #444;
+}
